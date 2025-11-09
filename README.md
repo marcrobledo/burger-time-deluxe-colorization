@@ -1,5 +1,10 @@
-# Burger Time Deluxe DX
-Sourcecode for Game Boy Burger Time Deluxe colorization hack.
+# Burger Time Deluxe colorization mod
+Sourcecode for Game Boy **Burger Time Deluxe** colorization hack.
+
+ ![BurgerTime Deluxe gameplay screenshot 1](screenshots/screenshot1.png)
+ ![BurgerTime Deluxe gameplay screenshot 2](screenshots/screenshot2.png)
+ ![BurgerTime Deluxe gameplay screenshot 3](screenshots/screenshot3.png)
+ ![BurgerTime Deluxe cutscene screenshot](screenshots/screenshot4.png)
 
 ## How to compile
 1. Download and install [RGBDS](https://github.com/rednex/rgbds/)
