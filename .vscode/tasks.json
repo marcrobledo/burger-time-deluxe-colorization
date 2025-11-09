@@ -1,0 +1,38 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Assemble",
+			"type": "shell",
+			"command": "make",
+			"windows": {
+				"command": ".\\make_win.bat"
+			},
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [
+				"$rgbdserror",
+				"$rgbdslinkerror"
+			]
+		},
+		{
+			"label": "Emulate",
+			"type": "process",
+			"command": "C:/Dropbox/gbdev/_resources/bgb/bgb64.exe",
+			"args": [
+				"./bin/burgertime_deluxe_dx.gbc"
+			],
+			"problemMatcher": []
+		},
+		{
+			"label": "Clean",
+			"type": "shell",
+			"command": "make clean",
+			"windows": {
+				"command": "./make_win_clean.bat"
+			},
+		}
+	]
+}

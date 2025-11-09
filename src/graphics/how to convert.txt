@@ -1,0 +1,2 @@
+convert these images to GB binary data with:
+https://www.marcrobledo.com/console-graphics-converter/
