@@ -8,13 +8,13 @@ SET SOURCE_NAME=%SOURCE_PATH%original_rom\burger_time_deluxe.gb
 SET TARGET_NAME=burger_time_deluxe_dx
 
 REM just in case rgbds cannot be accessed
-SET RGBDS_PATH=c:\Dropbox\gbdev\_resources\rgbds\
+REM SET RGBDS_PATH=c:\Dropbox\gbdev\_resources\rgbds\
 
 
 
 
 
-IF NOT %RGBDS_PATH%=="" SET PATH=%PATH%;%RGBDS_PATH%
+IF NOT "%RGBDS_PATH%"=="" SET PATH=%PATH%;%RGBDS_PATH%
 
 
 
