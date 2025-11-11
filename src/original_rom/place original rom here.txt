@@ -1,4 +1,4 @@
-place original "BurgerTime Deluxe (World).gb" rom as "burger_time_deluxe_original.gb"
+place original "BurgerTime Deluxe (World).gb" rom as "burger_time_deluxe.gb"
 CRC32: 88219a49
 MD5:   9627134ca3ea6e885275d30460ce3563
 SHA1:  1aafcef0dd5fbb8e95188631e0b2decdf84e9aed
