@@ -14,6 +14,9 @@ all:
 		export PATH="$$PATH:$(RGBDS_PATH)"; \
 	fi
 
+	# ensure target path exists
+	mkdir -p $(TARGET_PATH)
+
 	# delete current assembled rom
 	rm -f $(TARGET_PATH)$(TARGET_NAME).gbc
 
